@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color:#004d40;
     padding: 1rem;
 }
 
@@ -40,7 +40,10 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color:white;
+}
+nav span {
+    color: white;
 }
 .feat-nav{
     padding-right: 50px;
@@ -57,11 +60,12 @@ section {
 
 h1, h2 {
     text-align: center;
+    color: #004d40;
 }
 
 .cta-button {
     display: inline-block;
-    background-color: #007bff;
+    background-color: #004d40;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -91,7 +95,7 @@ h1, h2 {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-color: #007bff;
+    background-color: #004d40;
     color: #fff;
     border-radius: 50%;
     text-align: center;
@@ -116,20 +120,11 @@ input, textarea {
 }
 
 footer {
-    background-color: #f4f4f4;
+    background-color:#004d40;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
-}
-
-footer nav {
-    margin-top: 1rem;
-}
-
-footer a {
-    margin: 0 10px;
-    color: #333;
-    text-decoration: none;
+    color: white;
 }
 
  @media (max-width: 768px) {
